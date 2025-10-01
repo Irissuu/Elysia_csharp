@@ -2,10 +2,14 @@
 
 API RESTful desenvolvida em .NET 8 com Entity Framework Core e Oracle, parte do projeto **Elysia: Inteligência para Gestão Inteligente de Pátios** da empresa Mottu. Esta API permite o gerenciamento de **motos** e **vagas de estacionamento**, com foco em uma solução inteligente para controle de pátios.
 
+---
+
 ## 👥 Integrantes
 Iris Tavares Alves - 557728 - 2TDSPM
 
 Taís Tavares Alves - 557553 - 2TDSPM
+
+---
 
 ## ⚙️ Tecnologias Utilizadas
 
@@ -17,6 +21,7 @@ Taís Tavares Alves - 557553 - 2TDSPM
 - Clean Architecture (camadas Domain, Infrastructure, Application)
 
 ```
+---
 
 ### 1. Clone o repositório
 ```text
@@ -45,6 +50,8 @@ dotnet ef database update
 ```text
 dotnet run
 ```
+
+---
 
 ## 🔁 Rotas Disponíveis (via Swagger)
 
