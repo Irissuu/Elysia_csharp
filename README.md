@@ -1,4 +1,4 @@
-# ElysiaAPI 📱🏍️
+# ElysiaAPI  <img src="https://github.com/user-attachments/assets/bc6d687c-dd26-4bcd-bcbf-71a8a5681bc3" width="25"/>
 
 API RESTful desenvolvida em .NET 8 com Entity Framework Core e Oracle, parte do projeto **Elysia: Inteligência para Gestão Inteligente de Pátios** da empresa Mottu. Esta API permite o gerenciamento de **motos** e **vagas de estacionamento**, com foco em uma solução inteligente para controle de pátios.
 
@@ -48,8 +48,7 @@ dotnet run
 
 ## 🔁 Rotas Disponíveis (via Swagger)
 
-
-### 🔹 MotoController
+### ▸ MotoController
 
 | Método | Rota                            | Descrição                          |
 |--------|----------------------------------|-------------------------------------|
@@ -60,7 +59,7 @@ dotnet run
 | PUT    | `/api/moto/{id}`                | Atualiza uma moto existente         |
 | DELETE | `/api/moto/{id}`                | Remove uma moto                     |
 
-### 🔹 VagaController
+### ▸ VagaController
 
 | Método | Rota                                | Descrição                           |
 |--------|-------------------------------------|--------------------------------------|
@@ -71,7 +70,7 @@ dotnet run
 | PUT    | `/api/vaga/{id}`                    | Atualiza uma vaga existente          |
 | DELETE | `/api/vaga/{id}`                    | Remove uma vaga                      |
 
-### 🔹 UsuarioController
+### ▸ UsuarioController
 
 | Método | Rota                                | Descrição                           |
 |--------|-------------------------------------|--------------------------------------|
@@ -86,7 +85,7 @@ dotnet run
 ## 📄 Exemplos de JSON para teste 
 ###  ݁[  ▶︎ ] Método POST
 
-▶ Usuario:
+▸ Usuario:
 ```json
 {
   "nome": "Ana Luiza Freitas",
@@ -96,7 +95,7 @@ dotnet run
 }
 ```
 
-▶ Moto:
+▸ Moto:
 ```json
 {
   "placa": "KFY6283",
@@ -106,7 +105,7 @@ dotnet run
 }
 ```
 
-▶ Vaga:
+▸ Vaga:
 ```json
 {
   "status": "reservada",
@@ -117,7 +116,7 @@ dotnet run
 
 ###  ݁[  ▶︎ ] Método PUT
 
-▶ Usuario:
+▸ Usuario:
 ```json
 {
   "nome": "Ana Luiza Freitas",
@@ -127,7 +126,7 @@ dotnet run
 }
 ```
 
-▶ Moto:
+▸ Moto:
 ```json
 {
   "placa": "KFY6283",
@@ -137,7 +136,7 @@ dotnet run
 }
 ```
 
-▶ Vaga:
+▸ Vaga:
 ```json
 {
   "status": "livre",
