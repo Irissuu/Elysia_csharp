@@ -15,6 +15,7 @@ Taís Tavares Alves - 557553 - 2TDSPM
 - Oracle Database
 - Swagger (OpenAPI)
 - Clean Architecture (camadas Domain, Infrastructure, Application)
+
 ```
 
 ### 1. Clone o repositório
@@ -81,6 +82,71 @@ dotnet run
 | DELETE | `/api/usuario/{id}`                    | Remove um usuario                    |
 
 ---
+
+## 📄 Exemplos de JSON para teste 
+###  ݁[  ▶︎ ] Método POST
+
+▶ Usuario:
+```json
+{
+  "nome": "Ana Luiza Freitas",
+  "email": "analufre@gmail.com",
+  "senha": "MandiocaFrita",
+  "cpf": "48975684152"
+}
+```
+
+▶ Moto:
+```json
+{
+  "placa": "KFY6283",
+  "marca": "Suzuki",
+  "modelo": "Yes 125",
+  "ano": 2020
+}
+```
+
+▶ Vaga:
+```json
+{
+  "status": "reservada",
+  "numero": 3,
+  "patio": "Pátio A"
+}
+```
+
+###  ݁[  ▶︎ ] Método PUT
+
+▶ Usuario:
+```json
+{
+  "nome": "Ana Luiza Freitas",
+  "email": "anafreitas@gmail.com",
+  "senha": "ArrozDoce",
+  "cpf": "48975684152"
+}
+```
+
+▶ Moto:
+```json
+{
+  "placa": "KFY6283",
+  "marca": "Suzuki",
+  "modelo": "Yes 125",
+  "ano": 2022
+}
+```
+
+▶ Vaga:
+```json
+{
+  "status": "livre",
+  "numero": 3,
+  "patio": "Pátio A"
+}
+```
+
+-------
 
 ## 🧾 Consulta no banco Oracle
 
